@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{28B56D27-B0A1-4BD6-A7D2-E362624E6C82}|BulkyWeb\\BulkyWeb.csproj|c:\\users\\horiz\\desktop\\.net core tutorial\\.net-core-mvc\\bulky\\bulkyweb\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{28B56D27-B0A1-4BD6-A7D2-E362624E6C82}|BulkyWeb\\BulkyWeb.csproj|solutionrelative:bulkyweb\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28B56D27-B0A1-4BD6-A7D2-E362624E6C82}|BulkyWeb\\BulkyWeb.csproj|c:\\users\\horiz\\desktop\\.net core tutorial\\.net-core-mvc\\bulky\\bulkyweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{28B56D27-B0A1-4BD6-A7D2-E362624E6C82}|BulkyWeb\\BulkyWeb.csproj|solutionrelative:bulkyweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28B56D27-B0A1-4BD6-A7D2-E362624E6C82}|BulkyWeb\\BulkyWeb.csproj|c:\\users\\horiz\\desktop\\.net core tutorial\\.net-core-mvc\\bulky\\bulkyweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{28B56D27-B0A1-4BD6-A7D2-E362624E6C82}|BulkyWeb\\BulkyWeb.csproj|solutionrelative:bulkyweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{28B56D27-B0A1-4BD6-A7D2-E362624E6C82}|BulkyWeb\\BulkyWeb.csproj|c:\\users\\horiz\\desktop\\.net core tutorial\\.net-core-mvc\\bulky\\bulkyweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28B56D27-B0A1-4BD6-A7D2-E362624E6C82}|BulkyWeb\\BulkyWeb.csproj|solutionrelative:bulkyweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28B56D27-B0A1-4BD6-A7D2-E362624E6C82}|BulkyWeb\\BulkyWeb.csproj|c:\\users\\horiz\\desktop\\.net core tutorial\\.net-core-mvc\\bulky\\bulkyweb\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28B56D27-B0A1-4BD6-A7D2-E362624E6C82}|BulkyWeb\\BulkyWeb.csproj|solutionrelative:bulkyweb\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,52 +46,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\BulkyWeb\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "BulkyWeb\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\BulkyWeb\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "BulkyWeb\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-02T13:13:49.363Z",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\BulkyWeb\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "BulkyWeb\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\BulkyWeb\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "BulkyWeb\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T14:23:58.791Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\BulkyWeb\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "BulkyWeb\\Views\\Home\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\BulkyWeb\\Views\\Home\\Privacy.cshtml",
-              "RelativeToolTip": "BulkyWeb\\Views\\Home\\Privacy.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-02T13:13:38.482Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\BulkyWeb\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "BulkyWeb\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\BulkyWeb\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "BulkyWeb\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-02T13:13:08.147Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\BulkyWeb\\Program.cs",
               "RelativeDocumentMoniker": "BulkyWeb\\Program.cs",
               "ToolTip": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\BulkyWeb\\Program.cs",
               "RelativeToolTip": "BulkyWeb\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAtAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-02T01:06:52.817Z",
               "EditorCaption": ""
