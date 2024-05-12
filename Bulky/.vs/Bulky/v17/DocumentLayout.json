@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{28B56D27-B0A1-4BD6-A7D2-E362624E6C82}|BulkyWeb\\BulkyWeb.csproj|c:\\users\\horiz\\desktop\\.net core tutorial\\.net-core-mvc\\bulky\\bulkyweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{28B56D27-B0A1-4BD6-A7D2-E362624E6C82}|BulkyWeb\\BulkyWeb.csproj|solutionrelative:bulkyweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{28B56D27-B0A1-4BD6-A7D2-E362624E6C82}|BulkyWeb\\BulkyWeb.csproj|c:\\users\\horiz\\desktop\\.net core tutorial\\.net-core-mvc\\bulky\\bulkyweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28B56D27-B0A1-4BD6-A7D2-E362624E6C82}|BulkyWeb\\BulkyWeb.csproj|solutionrelative:bulkyweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -63,6 +67,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\BulkyWeb\\appsettings.json",
+              "RelativeDocumentMoniker": "BulkyWeb\\appsettings.json",
+              "ToolTip": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\BulkyWeb\\appsettings.json",
+              "RelativeToolTip": "BulkyWeb\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-10T18:57:08.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\BulkyWeb\\Program.cs",
               "RelativeDocumentMoniker": "BulkyWeb\\Program.cs",
@@ -75,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\BulkyWeb\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "BulkyWeb\\Controllers\\CategoryController.cs",
@@ -83,12 +100,11 @@
               "RelativeToolTip": "BulkyWeb\\Controllers\\CategoryController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAG4AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T17:33:42.044Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-09T17:33:42.044Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CategoryRepoistory.cs",
               "DocumentMoniker": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\Bulky.DataAccess\\Repository\\IRepository\\CategoryRepoistory.cs",
               "RelativeDocumentMoniker": "Bulky.DataAccess\\Repository\\IRepository\\CategoryRepoistory.cs",
@@ -96,12 +112,11 @@
               "RelativeToolTip": "Bulky.DataAccess\\Repository\\IRepository\\CategoryRepoistory.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAAABsAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T17:29:08.72Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-09T17:29:08.72Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ICategoryRepository.cs",
               "DocumentMoniker": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\Bulky.DataAccess\\Repository\\IRepository\\ICategoryRepository.cs",
               "RelativeDocumentMoniker": "Bulky.DataAccess\\Repository\\IRepository\\ICategoryRepository.cs",
@@ -109,12 +124,11 @@
               "RelativeToolTip": "Bulky.DataAccess\\Repository\\IRepository\\ICategoryRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T17:27:07.719Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-09T17:27:07.719Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Repository.cs",
               "DocumentMoniker": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\Bulky.DataAccess\\Repository\\IRepository\\Repository.cs",
               "RelativeDocumentMoniker": "Bulky.DataAccess\\Repository\\IRepository\\Repository.cs",
@@ -122,12 +136,11 @@
               "RelativeToolTip": "Bulky.DataAccess\\Repository\\IRepository\\Repository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T17:17:30.505Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-09T17:17:30.505Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\Bulky.DataAccess\\Repository\\IRepository\\IRepository.cs",
               "RelativeDocumentMoniker": "Bulky.DataAccess\\Repository\\IRepository\\IRepository.cs",
@@ -135,8 +148,7 @@
               "RelativeToolTip": "Bulky.DataAccess\\Repository\\IRepository\\IRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T17:10:42.991Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-09T17:10:42.991Z"
             }
           ]
         }
