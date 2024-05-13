@@ -3,32 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{28B56D27-B0A1-4BD6-A7D2-E362624E6C82}|BulkyWeb\\BulkyWeb.csproj|c:\\users\\horiz\\desktop\\.net core tutorial\\.net-core-mvc\\bulky\\bulkyweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{28B56D27-B0A1-4BD6-A7D2-E362624E6C82}|BulkyWeb\\BulkyWeb.csproj|solutionrelative:bulkyweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{28B56D27-B0A1-4BD6-A7D2-E362624E6C82}|BulkyWeb\\BulkyWeb.csproj|c:\\users\\horiz\\desktop\\.net core tutorial\\.net-core-mvc\\bulky\\bulkyweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28B56D27-B0A1-4BD6-A7D2-E362624E6C82}|BulkyWeb\\BulkyWeb.csproj|solutionrelative:bulkyweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28B56D27-B0A1-4BD6-A7D2-E362624E6C82}|BulkyWeb\\BulkyWeb.csproj|c:\\users\\horiz\\desktop\\.net core tutorial\\.net-core-mvc\\bulky\\bulkyweb\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{28B56D27-B0A1-4BD6-A7D2-E362624E6C82}|BulkyWeb\\BulkyWeb.csproj|solutionrelative:bulkyweb\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28B56D27-B0A1-4BD6-A7D2-E362624E6C82}|BulkyWeb\\BulkyWeb.csproj|c:\\users\\horiz\\desktop\\.net core tutorial\\.net-core-mvc\\bulky\\bulkyweb\\areas\\admin\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28B56D27-B0A1-4BD6-A7D2-E362624E6C82}|BulkyWeb\\BulkyWeb.csproj|solutionrelative:bulkyweb\\areas\\admin\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{28B56D27-B0A1-4BD6-A7D2-E362624E6C82}|BulkyWeb\\BulkyWeb.csproj|c:\\users\\horiz\\desktop\\.net core tutorial\\.net-core-mvc\\bulky\\bulkyweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28B56D27-B0A1-4BD6-A7D2-E362624E6C82}|BulkyWeb\\BulkyWeb.csproj|solutionrelative:bulkyweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28B56D27-B0A1-4BD6-A7D2-E362624E6C82}|BulkyWeb\\BulkyWeb.csproj|c:\\users\\horiz\\desktop\\.net core tutorial\\.net-core-mvc\\bulky\\bulkyweb\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28B56D27-B0A1-4BD6-A7D2-E362624E6C82}|BulkyWeb\\BulkyWeb.csproj|solutionrelative:bulkyweb\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{28B56D27-B0A1-4BD6-A7D2-E362624E6C82}|BulkyWeb\\BulkyWeb.csproj|c:\\users\\horiz\\desktop\\.net core tutorial\\.net-core-mvc\\bulky\\bulkyweb\\areas\\customer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28B56D27-B0A1-4BD6-A7D2-E362624E6C82}|BulkyWeb\\BulkyWeb.csproj|solutionrelative:bulkyweb\\areas\\customer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D62D8987-0AA5-4B9A-BCD1-6B012EB6D703}|Bulky.DataAccess\\Bulky.DataAccess.csproj|c:\\users\\horiz\\desktop\\.net core tutorial\\.net-core-mvc\\bulky\\bulky.dataaccess\\repository\\irepository\\categoryrepoistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D62D8987-0AA5-4B9A-BCD1-6B012EB6D703}|Bulky.DataAccess\\Bulky.DataAccess.csproj|solutionrelative:bulky.dataaccess\\repository\\irepository\\categoryrepoistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{28B56D27-B0A1-4BD6-A7D2-E362624E6C82}|BulkyWeb\\BulkyWeb.csproj|c:\\users\\horiz\\desktop\\.net core tutorial\\.net-core-mvc\\bulky\\bulkyweb\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28B56D27-B0A1-4BD6-A7D2-E362624E6C82}|BulkyWeb\\BulkyWeb.csproj|solutionrelative:bulkyweb\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28B56D27-B0A1-4BD6-A7D2-E362624E6C82}|BulkyWeb\\BulkyWeb.csproj|c:\\users\\horiz\\desktop\\.net core tutorial\\.net-core-mvc\\bulky\\bulkyweb\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{28B56D27-B0A1-4BD6-A7D2-E362624E6C82}|BulkyWeb\\BulkyWeb.csproj|solutionrelative:bulkyweb\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62D8987-0AA5-4B9A-BCD1-6B012EB6D703}|Bulky.DataAccess\\Bulky.DataAccess.csproj|c:\\users\\horiz\\desktop\\.net core tutorial\\.net-core-mvc\\bulky\\bulky.dataaccess\\repository\\irepository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62D8987-0AA5-4B9A-BCD1-6B012EB6D703}|Bulky.DataAccess\\Bulky.DataAccess.csproj|solutionrelative:bulky.dataaccess\\repository\\irepository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D62D8987-0AA5-4B9A-BCD1-6B012EB6D703}|Bulky.DataAccess\\Bulky.DataAccess.csproj|c:\\users\\horiz\\desktop\\.net core tutorial\\.net-core-mvc\\bulky\\bulky.dataaccess\\repository\\irepository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D62D8987-0AA5-4B9A-BCD1-6B012EB6D703}|Bulky.DataAccess\\Bulky.DataAccess.csproj|solutionrelative:bulky.dataaccess\\repository\\irepository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D62D8987-0AA5-4B9A-BCD1-6B012EB6D703}|Bulky.DataAccess\\Bulky.DataAccess.csproj|c:\\users\\horiz\\desktop\\.net core tutorial\\.net-core-mvc\\bulky\\bulky.dataaccess\\repository\\irepository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D62D8987-0AA5-4B9A-BCD1-6B012EB6D703}|Bulky.DataAccess\\Bulky.DataAccess.csproj|solutionrelative:bulky.dataaccess\\repository\\irepository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D62D8987-0AA5-4B9A-BCD1-6B012EB6D703}|Bulky.DataAccess\\Bulky.DataAccess.csproj|c:\\users\\horiz\\desktop\\.net core tutorial\\.net-core-mvc\\bulky\\bulky.dataaccess\\repository\\irepository\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62D8987-0AA5-4B9A-BCD1-6B012EB6D703}|Bulky.DataAccess\\Bulky.DataAccess.csproj|solutionrelative:bulky.dataaccess\\repository\\irepository\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D62D8987-0AA5-4B9A-BCD1-6B012EB6D703}|Bulky.DataAccess\\Bulky.DataAccess.csproj|c:\\users\\horiz\\desktop\\.net core tutorial\\.net-core-mvc\\bulky\\bulky.dataaccess\\repository\\irepository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D62D8987-0AA5-4B9A-BCD1-6B012EB6D703}|Bulky.DataAccess\\Bulky.DataAccess.csproj|solutionrelative:bulky.dataaccess\\repository\\irepository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62D8987-0AA5-4B9A-BCD1-6B012EB6D703}|Bulky.DataAccess\\Bulky.DataAccess.csproj|c:\\users\\horiz\\desktop\\.net core tutorial\\.net-core-mvc\\bulky\\bulky.dataaccess\\repository\\irepository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62D8987-0AA5-4B9A-BCD1-6B012EB6D703}|Bulky.DataAccess\\Bulky.DataAccess.csproj|solutionrelative:bulky.dataaccess\\repository\\irepository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62D8987-0AA5-4B9A-BCD1-6B012EB6D703}|Bulky.DataAccess\\Bulky.DataAccess.csproj|c:\\users\\horiz\\desktop\\.net core tutorial\\.net-core-mvc\\bulky\\bulky.dataaccess\\repository\\irepository\\categoryrepoistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62D8987-0AA5-4B9A-BCD1-6B012EB6D703}|Bulky.DataAccess\\Bulky.DataAccess.csproj|solutionrelative:bulky.dataaccess\\repository\\irepository\\categoryrepoistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFAE5166-4577-4FB4-9997-EBFFA974E79E}|Bulky.Models\\Bulky.Models.csproj|c:\\users\\horiz\\desktop\\.net core tutorial\\.net-core-mvc\\bulky\\bulky.models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFAE5166-4577-4FB4-9997-EBFFA974E79E}|Bulky.Models\\Bulky.Models.csproj|solutionrelative:bulky.models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,89 +94,185 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\BulkyWeb\\appsettings.json",
-              "RelativeDocumentMoniker": "BulkyWeb\\appsettings.json",
-              "ToolTip": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\BulkyWeb\\appsettings.json",
-              "RelativeToolTip": "BulkyWeb\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-10T18:57:08.824Z",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\BulkyWeb\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "BulkyWeb\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\BulkyWeb\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "BulkyWeb\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAABcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-13T19:23:28.349Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\BulkyWeb\\Program.cs",
-              "RelativeDocumentMoniker": "BulkyWeb\\Program.cs",
-              "ToolTip": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\BulkyWeb\\Program.cs",
-              "RelativeToolTip": "BulkyWeb\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T17:40:34.177Z",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\BulkyWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "BulkyWeb\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\BulkyWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "BulkyWeb\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAABsAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-13T19:14:52.514Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\BulkyWeb\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "BulkyWeb\\Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\BulkyWeb\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "BulkyWeb\\Controllers\\CategoryController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAG4AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T17:33:42.044Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CategoryRepoistory.cs",
-              "DocumentMoniker": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\Bulky.DataAccess\\Repository\\IRepository\\CategoryRepoistory.cs",
-              "RelativeDocumentMoniker": "Bulky.DataAccess\\Repository\\IRepository\\CategoryRepoistory.cs",
-              "ToolTip": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\Bulky.DataAccess\\Repository\\IRepository\\CategoryRepoistory.cs",
-              "RelativeToolTip": "Bulky.DataAccess\\Repository\\IRepository\\CategoryRepoistory.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAABsAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T17:29:08.72Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ICategoryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\Bulky.DataAccess\\Repository\\IRepository\\ICategoryRepository.cs",
-              "RelativeDocumentMoniker": "Bulky.DataAccess\\Repository\\IRepository\\ICategoryRepository.cs",
-              "ToolTip": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\Bulky.DataAccess\\Repository\\IRepository\\ICategoryRepository.cs",
-              "RelativeToolTip": "Bulky.DataAccess\\Repository\\IRepository\\ICategoryRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T17:27:07.719Z"
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\BulkyWeb\\Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "RelativeDocumentMoniker": "BulkyWeb\\Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "ToolTip": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\BulkyWeb\\Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "RelativeToolTip": "BulkyWeb\\Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-13T19:12:59.316Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\BulkyWeb\\Areas\\Customer\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "BulkyWeb\\Areas\\Customer\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\BulkyWeb\\Areas\\Customer\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "BulkyWeb\\Areas\\Customer\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T19:08:51.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\BulkyWeb\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "BulkyWeb\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\BulkyWeb\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "BulkyWeb\\ScaffoldingReadMe.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-05-13T19:02:18.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\BulkyWeb\\Program.cs",
+              "RelativeDocumentMoniker": "BulkyWeb\\Program.cs",
+              "ToolTip": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\BulkyWeb\\Program.cs",
+              "RelativeToolTip": "BulkyWeb\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T18:45:21.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\Bulky.DataAccess\\Repository\\IRepository\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Bulky.DataAccess\\Repository\\IRepository\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\Bulky.DataAccess\\Repository\\IRepository\\UnitOfWork.cs",
+              "RelativeToolTip": "Bulky.DataAccess\\Repository\\IRepository\\UnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T18:32:42.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\BulkyWeb\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "BulkyWeb\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\BulkyWeb\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "BulkyWeb\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T17:33:42.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Repository.cs",
               "DocumentMoniker": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\Bulky.DataAccess\\Repository\\IRepository\\Repository.cs",
               "RelativeDocumentMoniker": "Bulky.DataAccess\\Repository\\IRepository\\Repository.cs",
               "ToolTip": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\Bulky.DataAccess\\Repository\\IRepository\\Repository.cs",
               "RelativeToolTip": "Bulky.DataAccess\\Repository\\IRepository\\Repository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T17:17:30.505Z"
+              "WhenOpened": "2024-05-13T18:38:32.204Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\Bulky.DataAccess\\Repository\\IRepository\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Bulky.DataAccess\\Repository\\IRepository\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\Bulky.DataAccess\\Repository\\IRepository\\IUnitOfWork.cs",
+              "RelativeToolTip": "Bulky.DataAccess\\Repository\\IRepository\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T18:30:35.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\Bulky.DataAccess\\Repository\\IRepository\\IRepository.cs",
               "RelativeDocumentMoniker": "Bulky.DataAccess\\Repository\\IRepository\\IRepository.cs",
               "ToolTip": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\Bulky.DataAccess\\Repository\\IRepository\\IRepository.cs",
               "RelativeToolTip": "Bulky.DataAccess\\Repository\\IRepository\\IRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T17:10:42.991Z"
+              "WhenOpened": "2024-05-13T18:38:21.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\Bulky.DataAccess\\Repository\\IRepository\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "Bulky.DataAccess\\Repository\\IRepository\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\Bulky.DataAccess\\Repository\\IRepository\\ICategoryRepository.cs",
+              "RelativeToolTip": "Bulky.DataAccess\\Repository\\IRepository\\ICategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T18:38:10.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CategoryRepoistory.cs",
+              "DocumentMoniker": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\Bulky.DataAccess\\Repository\\IRepository\\CategoryRepoistory.cs",
+              "RelativeDocumentMoniker": "Bulky.DataAccess\\Repository\\IRepository\\CategoryRepoistory.cs",
+              "ToolTip": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\Bulky.DataAccess\\Repository\\IRepository\\CategoryRepoistory.cs",
+              "RelativeToolTip": "Bulky.DataAccess\\Repository\\IRepository\\CategoryRepoistory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T18:29:14.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\Bulky.Models\\Category.cs",
+              "RelativeDocumentMoniker": "Bulky.Models\\Category.cs",
+              "ToolTip": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\Bulky.Models\\Category.cs",
+              "RelativeToolTip": "Bulky.Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T18:39:37.341Z",
+              "EditorCaption": ""
             }
           ]
         }
