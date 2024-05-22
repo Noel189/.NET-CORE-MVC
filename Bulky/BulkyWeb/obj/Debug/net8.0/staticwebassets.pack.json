@@ -13,6 +13,38 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\BulkyWeb\\wwwroot\\images\\product\\1a09e6f5-56e1-419a-b5b5-9f4025c82543.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\1a09e6f5-56e1-419a-b5b5-9f4025c82543.jpg"
+    },
+    {
+      "Id": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\BulkyWeb\\wwwroot\\images\\product\\440a13a7-1c32-48f6-a0ad-86e52a60b339.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\440a13a7-1c32-48f6-a0ad-86e52a60b339.jpg"
+    },
+    {
+      "Id": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\BulkyWeb\\wwwroot\\images\\product\\468b2df3-5d5e-47a4-9ebe-d55f13119372.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\468b2df3-5d5e-47a4-9ebe-d55f13119372.jpg"
+    },
+    {
+      "Id": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\BulkyWeb\\wwwroot\\images\\product\\87c99027-44aa-435e-af1b-ec5962ef8334.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\87c99027-44aa-435e-af1b-ec5962ef8334.jpg"
+    },
+    {
+      "Id": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\BulkyWeb\\wwwroot\\images\\product\\8b05447c-4771-4e95-bbaa-de254d74c845.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\8b05447c-4771-4e95-bbaa-de254d74c845.jpg"
+    },
+    {
+      "Id": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\BulkyWeb\\wwwroot\\images\\product\\b0339adb-c6a0-48af-8c6d-dacc585eb601.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\b0339adb-c6a0-48af-8c6d-dacc585eb601.jpg"
+    },
+    {
+      "Id": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\BulkyWeb\\wwwroot\\images\\product\\e337ae4a-166d-4397-8e4a-e26dcaf1fc9a.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\e337ae4a-166d-4397-8e4a-e26dcaf1fc9a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\BulkyWeb\\wwwroot\\js\\product.js",
+      "PackagePath": "staticwebassets\\js\\product.js"
+    },
+    {
       "Id": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\BulkyWeb\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

@@ -1,4 +1,5 @@
 ﻿using Bulky.DataAccess.Data;
+using Bulky.DataAccess.Repository.IRepository;
 using Bulky.Models;
 using System;
 using System.Collections.Generic;
@@ -7,13 +8,13 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bulky.DataAccess.Repository.IRepository
+namespace Bulky.DataAccess.Repository
 {
-    public class CategoryRepoistory :Repository<Category>, ICategoryRepository
+    public class CategoryRepoistory : Repository<Category>, ICategoryRepository
     {
-        private  ApplicationDbContext _db;
+        private ApplicationDbContext _db;
 
-        public CategoryRepoistory(ApplicationDbContext db):base(db) 
+        public CategoryRepoistory(ApplicationDbContext db) : base(db)
         {
             _db = db;
         }

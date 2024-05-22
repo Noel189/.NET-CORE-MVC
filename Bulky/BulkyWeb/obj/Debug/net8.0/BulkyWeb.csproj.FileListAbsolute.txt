@@ -257,3 +257,4 @@ C:\Users\horiz\Desktop\.NET CORE TUTORIAL\.NET-CORE-MVC\Bulky\BulkyWeb\bin\Debug
 C:\Users\horiz\Desktop\.NET CORE TUTORIAL\.NET-CORE-MVC\Bulky\BulkyWeb\bin\Debug\net8.0\Bulky.DataAccess.pdb
 C:\Users\horiz\Desktop\.NET CORE TUTORIAL\.NET-CORE-MVC\Bulky\BulkyWeb\bin\Debug\net8.0\Bulky.Models.pdb
 C:\Users\horiz\Desktop\.NET CORE TUTORIAL\.NET-CORE-MVC\Bulky\BulkyWeb\bin\Debug\net8.0\Bulky.Utility.pdb
+C:\Users\horiz\Desktop\.NET CORE TUTORIAL\.NET-CORE-MVC\Bulky\BulkyWeb\obj\Debug\net8.0\BulkyWeb.MvcApplicationPartsAssemblyInfo.cs

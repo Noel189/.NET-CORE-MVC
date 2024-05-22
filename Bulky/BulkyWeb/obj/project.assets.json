@@ -2769,7 +2769,10 @@
         },
         "runtime": {
           "bin/placeholder/Bulky.Models.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "Bulky.Utility/1.0.0": {
         "type": "project",
@@ -7885,6 +7888,7 @@
     "net8.0": [
       "Bulky.DataAccess >= 1.0.0",
       "Bulky.Models >= 1.0.0",
+      "Bulky.Utility >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 8.0.4",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.4",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.4",
@@ -7923,6 +7927,9 @@
             },
             "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\Bulky.Models\\Bulky.Models.csproj": {
               "projectPath": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\Bulky.Models\\Bulky.Models.csproj"
+            },
+            "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\Bulky.Utility\\Bulky.Utility.csproj": {
+              "projectPath": "C:\\Users\\horiz\\Desktop\\.NET CORE TUTORIAL\\.NET-CORE-MVC\\Bulky\\Bulky.Utility\\Bulky.Utility.csproj"
             }
           }
         }
