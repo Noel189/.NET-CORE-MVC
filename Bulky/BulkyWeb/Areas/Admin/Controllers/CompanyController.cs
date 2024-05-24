@@ -2,102 +2,126 @@
 using Microsoft.AspNetCore.Mvc;
 using Bulky.Models;
 using Bulky.DataAccess.Repository.IRepository;
-using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Bulky.Models.ViewModels;
+using Bulky.DataAccess.Repository;
 using Bulky.Utility;
+using Microsoft.AspNetCore.Authorization;
 
 namespace BulkyWeb.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    [Authorize(Roles =SD.Role_Admin)]
+    [Authorize(Roles = SD.Role_Admin)]
     public class CategoryController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
-        public CategoryController(IUnitOfWork unitOfWork)
+        private readonly IWebHostEnvironment _webHostEnvironment;
+        public CategoryController(IUnitOfWork unitOfWork, IWebHostEnvironment webHostEnvironment)
         {
             _unitOfWork = unitOfWork;
+            _webHostEnvironment = webHostEnvironment;
         }
         public IActionResult Index()
         {
-            List<Category> objCategoryList = _unitOfWork.Category.GetAll().ToList();
+            List<Category> objCategoryList = _unitOfWork.Category.GetAll(includeProperties:"Category").ToList();
+
             return View(objCategoryList);
         }
 
-        public IActionResult Create()
-        {
-            return View();
-        }
+        public IActionResult Upsert(int? id)
+        { 
+
+            CategoryVM CategoryVm = new ()
+            { 
+                  CategoryList =  _unitOfWork.Category.GetAll().Select(u => new SelectListItem
+                {
+                    Text = u.Name,
+                    Value = u.Id.ToString()
+                }),
+                Category = new Category()
+             };
+            if(id==null||id==0)
+            {
+                return View(CategoryVm);
+            }
+            else
+            {
+                //update
+                CategoryVm.Category=_unitOfWork.Category.Get(u=>u.Id==id);
+                return View(CategoryVm);
+            }
+            
+    }
+     
         [HttpPost]
-        public IActionResult Create(Category obj)
+        public IActionResult Upsert(CategoryVM CategoryVM,IFormFile?file)
         {
-            if (obj.Name == obj.DisplayOrder.ToString())
-            {
-                ModelState.AddModelError("name", "The DisplayOrder cannot exactly match the Name.");
-            }
-            if (obj.Name != null && obj.Name.ToLower() == "test")
-            {
-                ModelState.AddModelError("", "Test is an invalid value");
-            }
             if (ModelState.IsValid)
             {
-                _unitOfWork.Category.Add(obj);
+                string wwwRootPath = _webHostEnvironment.WebRootPath;
+                if(file!=null)
+                {
+                    string fileName = Guid.NewGuid().ToString()+Path.GetExtension(file.FileName);
+                    string CategoryPath = Path.Combine(wwwRootPath, @"images\Category");
+
+
+                    if(!string.IsNullOrEmpty(CategoryVM.Category.ImageUrl))
+                    {
+                        //delete the old image
+                        var oldImagePath=Path.Combine(wwwRootPath,CategoryVM.Category.ImageUrl.TrimStart('\\'));
+
+                        if(System.IO.File.Exists(oldImagePath))
+                        {
+                            System.IO.File.Delete(oldImagePath);
+                        }
+                    }
+                    using (var fileStream = new FileStream(Path.Combine(CategoryPath, fileName), FileMode.Create))
+                    {
+                        file.CopyTo(fileStream);
+                    }
+                    CategoryVM.Category.ImageUrl =@"\images\Category\"+fileName;
+                }
+
+                if(CategoryVM.Category.Id ==0)
+                {
+                    _unitOfWork.Category.Add(CategoryVM.Category);
+                }
+                else
+                {
+                    _unitOfWork.Category.Update(CategoryVM.Category);
+                }
+               
                 _unitOfWork.Save();
                 TempData["success"] = "Category created successfully";
                 return RedirectToAction("Index");
             }
             else
             {
-                return View();
+                CategoryVM.CategoryList = _unitOfWork.Category.GetAll().Select(u => new SelectListItem
+                {
+                    Text = u.Name,
+                    Value = u.Id.ToString()
+                });
+                return View(CategoryVM);
             }
-
+            
         }
 
-        public IActionResult Edit(int? id)
-        {
-            if (id == null || id == 0)
-            {
-                return NotFound();
-            }
-            Category? categroyFromDb = _unitOfWork.Category.Get(u => u.Id == id);
-            //Category? categoryFromDb1 = _db.Categories.FirstOrDefault(c => c.Id == id); 
-            //Category? categoryFromDb2 = _db.Categories.Where(u => u.Id == id).FirstOrDefault();
-            if (categroyFromDb == null)
-            {
-                return NotFound();
-            }
-            return View(categroyFromDb);
-        }
-        [HttpPost]
-        public IActionResult Edit(Category obj)
-        {
-            if (ModelState.IsValid)
-            {
-                _unitOfWork.Category.Update(obj);
-                _unitOfWork.Save();
-                TempData["success"] = "Category updated successfully";
-                return RedirectToAction("Index");
-            }
-            else
-            {
-                return View();
-            }
-
-        }
-
-        public IActionResult Delete(int? id)
-        {
-            if (id == null || id == 0)
-            {
-                return NotFound();
-            }
-            Category? categroyFromDb = _unitOfWork.Category.Get(u => u.Id == id);
-            //Category? categoryFromDb1 = _db.Categories.FirstOrDefault(c => c.Id == id); 
-            //Category? categoryFromDb2 = _db.Categories.Where(u => u.Id == id).FirstOrDefault();
-            if (categroyFromDb == null)
-            {
-                return NotFound();
-            }
-            return View(categroyFromDb);
-        }
+        //public IActionResult Delete(int? id)
+        //{
+        //    if (id == null || id == 0)
+        //    {
+        //        return NotFound();
+        //    }
+        //    Category? CategoryFromDb = _unitOfWork.Category.Get(u => u.Id == id);
+        //    //Category? CategoryFromDb1 = _db.Categories.FirstOrDefault(c => c.Id == id); 
+        //    //Category? CategoryFromDb2 = _db.Categories.Where(u => u.Id == id).FirstOrDefault();
+        //    if (CategoryFromDb == null)
+        //    {
+        //        return NotFound();
+        //    }
+        //    return View(CategoryFromDb);
+        //}
         [HttpPost, ActionName("Delete")]
         public IActionResult DeletePOST(int? id)
         {
@@ -112,5 +136,36 @@ namespace BulkyWeb.Areas.Admin.Controllers
             return RedirectToAction("Index");
 
         }
+
+        #region API CALLS
+        [HttpGet]
+        public IActionResult GetAll()
+        {
+            List<Category> objCategoryList = _unitOfWork.Category.GetAll(includeProperties: "Category").ToList();
+            return Json(new {data=objCategoryList});
+        }
+
+        [HttpDelete]
+        public IActionResult Delete(int? id)
+        {
+            var CategoryToBeDeleted = _unitOfWork.Category.Get(u=>u.Id == id);
+            if (CategoryToBeDeleted == null)
+            {
+                return Json(new {succes=false,message="Error while deleting"});
+            }
+
+            var oldImagePath = Path.Combine(_webHostEnvironment.WebRootPath, 
+                CategoryToBeDeleted.ImageUrl.TrimStart('\\'));
+            if (System.IO.File.Exists(oldImagePath))
+            {
+                System.IO.File.Delete(oldImagePath);
+            }
+
+            _unitOfWork.Category.Remove(CategoryToBeDeleted);
+            _unitOfWork.Save();
+            List<Category> objCategoryList = _unitOfWork.Category.GetAll(includeProperties: "Category").ToList();
+            return Json(new { success=true, message="Delete Successful" });
+        }
+        #endregion
     }
 }
