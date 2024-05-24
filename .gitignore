@@ -1,2 +1,163 @@
+# .NET Core & ASP.NET Core
+bin/
+obj/
+out/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.mdb
+*.log
+*.csproj.user
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
 
-*.vsidx
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+*.sln.iml
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# NPM Packages
+node_modules/
+package-lock.json
+.yarn/
+.pnp.*
+
+# VS Code directories and files
+.vscode/
+.history/
+
+# Logs
+*.log
+
+# Local History for JetBrains IDEs
+.idea/.idea.icls
+.idea/.idea.morph
+.idea/.idea/launch.json
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/packages/repositories.config
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code
+.vscode/
+
+# Rider
+.idea/
+
+# Exclude all files in the .vs folder except .gitkeep
+.vs/*
+!.vs/.gitkeep
+
+# Exclude Azure Web Service deploy settings file
+.publishsettings
+
+# Local configuration files
+appsettings.Development.json
+appsettings.Local.json
+appsettings.Test.json
+appsettings.Staging.json
+
+# Azure DevOps
+# Ignore Azure DevOps agents folder
+*agent/_work/
+*agent/_tasks/
+*agent/_diag/
+
+# Exclude local NuGet packages
+**/bin/
+**/obj/
+**/.vs/
+**/packages/
+**/Backup/
+
+# Exclude any local SSL certificate files
+*.pfx
+*.cer
+*.crt
+
+# Exclude build outputs
+*.vsix
+*.appx
+*.msix
+
+# Exclude build results
+artifacts/
+
+# StyleCop
+stylecop.json
+
+# ASP.NET Core Secret Manager secrets.json file
+secrets.json
+
+# Visual Studio Code workspace settings file
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+
+# Local history for VS Code
+.history/
+
+# JetBrains Rider & IntelliJ IDEs
+.idea/
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/taskRepositories.xml
+.idea/**/shelf/
+
+# macOS files
+*.DS_Store
+*.AppleDouble
+*.LSOverride
+
+# Windows files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Microsoft Azure Build
+*.azurePubxml
+*.publish.xml
+
